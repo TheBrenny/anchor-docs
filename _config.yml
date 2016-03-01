@@ -17,7 +17,6 @@ sass:
 
 # Permalinks
 permalink: pretty
-paginate: 8
 
 excerpt_separator: <!-- more -->
 
