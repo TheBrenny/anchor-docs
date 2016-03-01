@@ -1,0 +1,113 @@
+# Header nav
+header:
+  Docs: "http://docs.anchorcms.com"
+  Resources: "http://docs.anchorcms.com/resources"
+  Forum: "http://forums.anchorcms.com"
+  Blog: "http://blog.anchorcms.com"
+
+# Footer nav
+footer:
+  License: "https://www.gnu.org/licenses/gpl.txt"
+  GitHub: "http://github.com/anchorcms"
+  Twitter: "http://twitter.com/anchorcms"
+  Blog: "http://blog.anchorcms.com"
+
+# Sidebar nav
+sidebar:
+
+# Getting started
+- title: Getting started
+  subnav:
+  - title: System Requirements
+    url: /getting-started/system-requirements/
+  - title: Installing Anchor
+    url: /getting-started/installing/
+  - title: Upgrading Anchor
+    url: /getting-started/upgrading/
+  - title: Configuration
+
+# The Admin Interface
+- title: The Admin Interface
+  subnav:
+  - title: Posts (Articles)
+    url: /managing-content/posts/
+  - title: Comments
+    url: /managing-content/comments/
+  - title: Pages
+    url: /managing-content/pages/
+  - title: Categories
+    url: /managing-content/categories/
+  - title: Users
+    url: /managing-content/users/
+  - title: Metadata
+    url: /managing-content/metadata/
+  - title: Custom Fields
+    url: /managing-content/custom-fields/
+  - title: Custom Variables
+    url: /managing-content/custom-variables/
+
+# Theming
+- title: Theming
+  subnav:
+  - title: Introduction
+    url: /theming/introduction/
+  - title: File Structure
+    url: /theming/file-structure/
+  - title: Custom Templates
+    url: /theming/custom-templates/
+
+# Function Reference
+- title: Function Reference
+  subnav:
+  - title: Articles
+    url: /function-reference/introduction/
+  - title: Categories
+    url: /function-reference/introduction/
+  - title: Comments
+    url: /function-reference/comments/
+  - title: Config
+    url: /function-reference/config/
+  - title: Helpers
+    url: /function-reference/helpers/
+  - title: Menus
+    url: /function-reference/menus/
+  - title: Metadata
+    url: /function-reference/metadata/
+  - title: Pages
+    url: /function-reference/pages/
+  - title: Posts
+    url: /function-reference/posts/
+  - title: Search
+    url: /function-reference/search/
+  - title: Users
+    url: /function-reference/users/
+
+# Class Reference
+- title: Class Reference
+  subnav:
+  - title: Base
+    url: /class-reference/base/
+  - title: Category
+    url: /class-reference/category/
+  - title: Comment
+    url: /class-reference/comment/
+  - title: Extend
+    url: /class-reference/extend/
+  - title: Page
+    url: /class-reference/page/
+  - title: Plugin
+    url: /class-reference/plugin/
+  - title: Post
+    url: /class-reference/post/
+  - title: User
+    url: /class-reference/user/
+
+# Plugins
+- title: Plugins
+  subnav:
+  - title: Introduction
+    url: /plugins/introduction/
+  - title: File Structure
+    url: /plugins/file-structure/
+  - title: The plugin.php file
+    url: /plugins/plugin-file/
