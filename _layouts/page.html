@@ -1,4 +1,17 @@
 ---
 layout: default
 ---
-{{ content }}
+
+<main class="main page">
+	<article class="article container">
+		<div class="row">
+
+      {% include sidebar.html %}
+
+			<div class="span-9">
+				{{ content }}
+			</div>
+
+		</div>
+	</article>
+</main>

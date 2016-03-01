@@ -1,2 +1,5 @@
-<nav class="nav  nav--header" role="main">
-</nav>
+{% if site.data.navigation.header %}
+  {% for item in site.data.navigation.header %}
+    <a href="{{ item.link }}" title="{{ item.title }}">{{ item.title }}</a>
+  {% endfor %}
+{% endif %}
