@@ -1,3 +1,7 @@
+---
+layout: page
+---
+
 # Custom Templates
 
 When creating pages and articles you can also create custom templates to go

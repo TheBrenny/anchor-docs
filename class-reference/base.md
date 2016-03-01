@@ -1,3 +1,7 @@
+---
+layout: page
+---
+
 # Base
 
 The `Base` class extend the `Record` class and provides the table prefix on queries.

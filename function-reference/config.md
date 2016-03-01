@@ -1,3 +1,7 @@
+---
+layout: page
+---
+
 # Config
 
 ### `set_theme_options`

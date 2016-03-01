@@ -1,3 +1,7 @@
+---
+layout: page
+---
+
 # Search
 
 ### `has_search_results`

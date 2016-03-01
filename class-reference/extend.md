@@ -1,3 +1,7 @@
+---
+layout: page
+---
+
 # Extend
 
 `public static function field($type, $key, $id = -1)`

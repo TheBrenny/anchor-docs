@@ -1,3 +1,7 @@
+---
+layout: page
+---
+
 # Menus
 
 ### `has_menu_items`

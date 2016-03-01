@@ -1,3 +1,7 @@
+---
+layout: page
+---
+
 # Page
 
 `public static function slug($slug)`

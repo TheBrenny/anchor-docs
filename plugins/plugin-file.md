@@ -1,3 +1,7 @@
+---
+layout: page
+---
+
 # The plugin.php file
 
 Anchor’s plugin system works slightly differently to many other content

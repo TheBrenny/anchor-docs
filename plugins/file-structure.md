@@ -1,3 +1,7 @@
+---
+layout: page
+---
+
 # File Structure
 
 Required plugin files:

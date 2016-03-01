@@ -1,3 +1,7 @@
+---
+layout: page
+---
+
 # Configuration
 
 Once you have Anchor installed you many wish to change some of the defaults

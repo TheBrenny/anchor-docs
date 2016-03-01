@@ -1,3 +1,7 @@
+---
+layout: page
+---
+
 # Posts
 
 Undoubtedly the most important part of Anchor, the posts interface lets you

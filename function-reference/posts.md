@@ -1,3 +1,7 @@
+---
+layout: page
+---
+
 # Posts
 
 ### `has_pagination`

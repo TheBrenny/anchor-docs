@@ -1,3 +1,7 @@
+---
+layout: page
+---
+
 # File Structure
 
 Anchor has a fairly loose file structure — you can have as many files and folders as

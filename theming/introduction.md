@@ -1,3 +1,7 @@
+---
+layout: page
+---
+
 # Introduction
 
 Theming in Anchor is easy; all you need is some basic knowledge of HTML, CSS,

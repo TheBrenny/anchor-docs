@@ -1,3 +1,7 @@
+---
+layout: page
+---
+
 # Metadata
 
 ### `site_description`

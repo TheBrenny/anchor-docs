@@ -1,3 +1,7 @@
+---
+layout: page
+---
+
 # User
 
 `public static function search($params = array())`

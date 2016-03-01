@@ -1,3 +1,7 @@
+---
+layout: page
+---
+
 # Pages
 
 ### `page_active`

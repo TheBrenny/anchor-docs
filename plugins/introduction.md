@@ -1,3 +1,7 @@
+---
+layout: page
+---
+
 # Introduction
 
 Anchor plugins provides you with the ability to extend Anchor further, allowing

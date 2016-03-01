@@ -1,3 +1,7 @@
+---
+layout: page
+---
+
 # Helpers
 
 ### `base_url`

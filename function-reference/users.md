@@ -1,3 +1,7 @@
+---
+layout: page
+---
+
 # Users
 
 ### `user_authed`

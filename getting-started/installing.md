@@ -1,3 +1,7 @@
+---
+layout: page
+---
+
 # Installing
 
 Before installing, make sure your platform has the [required](/docs/getting-started/requirements) components to run Anchor.

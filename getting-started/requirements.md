@@ -1,3 +1,7 @@
+---
+layout: page
+---
+
 # Requirements
 
 In order to remain lightweight, Anchor only supports recent versions of the languages it’s written in. As such, you will need:

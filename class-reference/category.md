@@ -1,3 +1,7 @@
+---
+layout: page
+---
+
 # Category
 
 The `Category` class extends the `Base` class and inherits all methods.

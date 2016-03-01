@@ -1,3 +1,7 @@
+---
+layout: page
+---
+
 # Comments
 
 Anchor uses its own built-in commenting system. To moderate blog comments (if

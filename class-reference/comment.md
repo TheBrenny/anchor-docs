@@ -1,3 +1,7 @@
+---
+layout: page
+---
+
 # Comment
 
 The `Comment` class extends the `Base` class and inherits all methods.

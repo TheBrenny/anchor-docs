@@ -1,3 +1,7 @@
+---
+layout: page
+---
+
 # Upgrading
 
 **Backup your database and files!**
