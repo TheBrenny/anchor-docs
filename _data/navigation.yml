@@ -101,19 +101,19 @@ sidebar:
     url: /class-reference/extend/
   - title: Page
     url: /class-reference/page/
-  - title: Plugin
-    url: /class-reference/plugin/
+#  - title: Plugin
+#    url: /class-reference/plugin/
   - title: Post
     url: /class-reference/post/
   - title: User
     url: /class-reference/user/
 
 # Plugins
-- title: Plugins
-  subnav:
-  - title: Introduction
-    url: /plugins/introduction/
-  - title: File Structure
-    url: /plugins/file-structure/
-  - title: The plugin.php file
-    url: /plugins/plugin-file/
+#- title: Plugins
+#  subnav:
+#  - title: Introduction
+#    url: /plugins/introduction/
+#  - title: File Structure
+#    url: /plugins/file-structure/
+#  - title: The plugin.php file
+#    url: /plugins/plugin-file/
