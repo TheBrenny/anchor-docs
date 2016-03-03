@@ -1,0 +1,59 @@
+# Excluded files
+exclude:
+- README.md
+- LICENSE
+- CNAME
+
+# Gems
+gems:
+- jekyll-sitemap
+- jekyll-mentions
+- jemoji
+- jekyll-paginate
+
+# SCSS
+sass:
+  style: :compressed
+
+# Permalinks
+permalink: pretty
+
+excerpt_separator: <!-- more -->
+
+jekyll-mentions: https://twitter.com
+
+# Site info
+url: "http://docs.anchorcms.com"
+title: "Anchor CMS Documentation"
+name: "Anchor CMS"
+description: "Help on how to use Anchor"
+avatar: "https://avatars1.githubusercontent.com/u/1433533?s=300"
+
+# Networks
+networks:
+  Twitter: http://twitter.com/anchorcms
+  GitHub: http://github.com/anchorcms
+  Facebook: https://dribbble.com/anchorcms
+
+# Metadata
+meta:
+  twitter: anchorcms
+  facebook: anchorcms
+
+# Defaults
+defaults:
+  -
+    scope:
+      path: ""
+      type: pages
+    values:
+      is_page: true
+      layout: page
+  -
+    scope:
+      path: ""
+      type: posts
+    values:
+      is_post: true
+      layout: post
+      icon: article
