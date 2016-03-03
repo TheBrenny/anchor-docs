@@ -55,8 +55,6 @@ sidebar:
 # Theming
 - title: Theming
   subnav:
-  - title: Introduction
-    url: /theming/introduction/
   - title: File Structure
     url: /theming/file-structure/
   - title: Custom Templates
@@ -66,9 +64,9 @@ sidebar:
 - title: Function Reference
   subnav:
   - title: Articles
-    url: /function-reference/introduction/
+    url: /function-reference/articles/
   - title: Categories
-    url: /function-reference/introduction/
+    url: /function-reference/categories/
   - title: Comments
     url: /function-reference/comments/
   - title: Config
