@@ -28,6 +28,7 @@ title: "Anchor CMS Documentation"
 name: "Anchor CMS"
 description: "Help on how to use Anchor"
 avatar: "https://avatars1.githubusercontent.com/u/1433533?s=300"
+repository: https://github.com/anchorcms/anchor-docs
 
 # Networks
 networks:

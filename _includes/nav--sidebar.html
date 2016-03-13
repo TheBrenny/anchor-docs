@@ -1,7 +1,7 @@
 <nav class="menu">
 	<ul>
 		{% for item in site.data.navigation.sidebar %}
-  		<li>
+  		<li class="parent-item">
 
   			{% if item.url == null %}
   				<span>{{ item.title }}</span>
@@ -12,7 +12,7 @@
   			{% if item.subnav %}
   				<ul>
   					{% for subitem in item.subnav %}
-  						<li>
+  						<li class="child-item">
                 <a href="{{ subitem.url }}" {% if page.url == subitem.url %}class="active"{% endif %}>{{ subitem.title }}</a>
   						</li>
   					{% endfor %}
