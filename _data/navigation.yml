@@ -25,12 +25,13 @@ sidebar:
 - title: Getting started
   subnav:
   - title: System Requirements
-    url: /getting-started/system-requirements/
+    url: /
   - title: Installing Anchor
     url: /getting-started/installing/
   - title: Upgrading Anchor
     url: /getting-started/upgrading/
   - title: Configuration
+    url: /getting-started/configuration/
 
 # The Admin Interface
 - title: The Admin Interface
@@ -55,6 +56,8 @@ sidebar:
 # Theming
 - title: Theming
   subnav:
+  - title: Introduction
+    url: /theming/introduction/
   - title: File Structure
     url: /theming/file-structure/
   - title: Custom Templates
