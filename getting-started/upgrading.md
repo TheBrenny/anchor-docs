@@ -8,12 +8,14 @@ layout: page
 
 Here is an example for backup up on most servers via ssh using mysql dump:
 
-	mysqldump
-		--compact
-		--quick
-		--user myusername
-		--password=mypassword
-		--host=localhost anchorcms > /path/to/my/site/httpdocs/db.sql
+```
+mysqldump
+  --compact
+  --quick
+  --user myusername
+  --password=mypassword
+  --host=localhost anchorcms > /path/to/my/site/httpdocs/db.sql
+```
 
 lets tar gzip it to a safe location.
 
