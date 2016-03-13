@@ -366,8 +366,11 @@ a.button, .screens a, .screens:hover a, .share-button label, .share-button a {
 	}
 	&.edit {
 		background: darken($lightbg, 30%);
+		position: absolute;
+		top: 0;
+		right: 0;
 		&:hover {
-			background: $copy;			
+			background: $copy;
 		}
 		svg {
 			vertical-align: top;
@@ -602,7 +605,7 @@ a.entypo-google {
 .toggle span, .toggle span:before, .toggle span:after {
 	display: block;
 	position: relative;
-	background: fade-out($link, 0.2);
+	background: fade-out($copy, 0.2);
 	width: 25px;
 	height: 4px;
 	padding: 0;
@@ -629,6 +632,10 @@ a.entypo-google {
 			opacity: 1;
 		}
 	}
+}
+
+.content {
+	position: relative;
 }
 
 .main {
@@ -804,6 +811,9 @@ a.entypo-google {
 	.button, span.share-btn.sharer-0 {
 		margin: 1.1em 1.1em 0 0;
 		vertical-align: text-top;
+	}
+	.edit {
+		margin-right: 0;
 	}
 }
 
@@ -1024,5 +1034,8 @@ a.entypo-google {
 		.article {
 			margin-bottom: 1.4em;
 		}
+	}
+	a.button.edit {
+		position: relative;
 	}
 }
