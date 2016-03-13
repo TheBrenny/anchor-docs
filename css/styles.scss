@@ -313,10 +313,17 @@ strong {
 }
 
 code {
-	background: $lightbg;
-	padding: 3px 5px;
-	border-radius: $corners;
-	border: 1px solid darken($lightbg, 7%);
+    display: inline-block;
+    max-width: 100%;
+    padding: .1em .5em;
+		line-height: 1.4em;
+		background: $lightbg;
+		border: 1px solid darken($lightbg, 7%);
+		border-radius: $corners;
+}
+
+pre > code {
+    overflow-x: scroll;
 }
 
 ::selection {
@@ -333,9 +340,9 @@ a.button, .screens a, .screens:hover a, .share-button label, .share-button a {
 	display: inline-block;
 	line-height: 1.2em;
 	@include transition(background .2s);
-	background: $link;
+	background: $copy;
 	color: $lightbg;
-	padding: .65em 1em .67em;
+	padding: .8em 1.4em .85em;
 	border-radius: $corners;
 	white-space: nowrap;
 	cursor: pointer;
@@ -350,12 +357,23 @@ a.button, .screens a, .screens:hover a, .share-button label, .share-button a {
 		padding-right: .3em;
 	}
 	&:hover {
-		background: darken($link, 10%);
+		background: darken($copy, 10%);
 		opacity: 1;
 	}
 	&:active {
 		color: $lightbg;
-		background: darken($link, 20%);
+		background: darken($copy, 20%);
+	}
+	&.edit {
+		background: darken($lightbg, 30%);
+		&:hover {
+			background: $copy;			
+		}
+		svg {
+			vertical-align: top;
+			width: 16px;
+			height: 16px;
+		}
 	}
 }
 
@@ -502,10 +520,16 @@ a.entypo-google {
 	float: left;
 	svg {
 		margin: -12px 0 -7px;
+		vertical-align: middle;
 		@include transform-origin(50% 18%);
 	}
 	a {
 		margin-left: 60px;
+		color: lighten($copy, 15%);
+		border: none;
+		&:hover {
+			color: $copy;
+		}
 	}
 }
 .header .aside {
@@ -547,6 +571,9 @@ a.entypo-google {
 		a {
 			margin-left: 10px;
 		}
+	}
+	.button {
+		display: inline;
 	}
 	p {
 		color: lighten($copy, 10%);
@@ -666,8 +693,40 @@ a.entypo-google {
 }
 
 // Sidebar
-.aside a {
-  margin-left: 0;
+.sidebar {
+	.menu {
+		float: none;
+		padding-right: 10%;
+	}
+	a,
+	span {
+  	margin-left: 0;
+		padding: .4em 1em;
+		width: 100%;
+		display: block;
+	}
+	span {
+		padding: 1.2em 0 .8em;
+	}
+	a {
+		font-size: .95em;
+	}
+	li {
+		list-style: none;
+	}
+	.child-item {
+		border-top: 1px solid darken($lightbg, 5%);
+		font-weight: 400;
+		&:last-of-type {
+			border-bottom: 1px solid darken($lightbg, 5%);
+		}
+		.active {
+			font-weight: 500;
+		}
+	}
+	ul {
+		padding: 0;
+	}
 }
 
 // Advertisements
@@ -742,12 +801,18 @@ a.entypo-google {
 		font-weight: 500;
 		color: $subtitle;
 	}
-	a {
-		font-weight: 500;
-	}
 	.button, span.share-btn.sharer-0 {
 		margin: 1.1em 1.1em 0 0;
 		vertical-align: text-top;
+	}
+}
+
+.article.container {
+	.row {
+		display: flex;
+	}
+	.aside {
+		order: -1;
 	}
 }
 
@@ -833,6 +898,9 @@ a.entypo-google {
 	.menu a {
 		margin-left: 22px;
 	}
+	.sidebar a {
+		margin-left: 0;
+	}
 	.footer .menu a {
 		margin-left: 16px;
 	}
@@ -876,6 +944,9 @@ a.entypo-google {
 		.hgroup {
 			padding: 0;
 		}
+		.button {
+			display: inline-block;
+		}
 	}
 	.related .row > h2 {
 		margin: 0 ($gutter * 2) .3em;
@@ -907,13 +978,16 @@ a.entypo-google {
 			padding: 1em 0 3em 0;
 			font-size: 1.5em;
 			margin-top: -182px;
-		}
-		.open {
-			margin-top: 0;
+			&[data-state=open] {
+				margin-top: 0;
+			}
 		}
 	}
 	.button {
 		line-height: 1.2em;
+	}
+	.sidebar .menu {
+		padding-right: 0;
 	}
 	.footer .menu a {
 		margin-left: 0;
@@ -927,12 +1001,17 @@ a.entypo-google {
 		padding-left: 4%;
 		padding-right: 4%;
 	}
+	.article.container {
+		.row {
+			display: block;
+		}
+	}
 	[class*="span-"] {
 		margin-left: $gutter * 2;
 		width: 100% - ($gutter * 2);
 	}
 	.span-3 {
-		width: ($column * 6 ) + ($gutter * 4 );
+		// width: ($column * 6 ) + ($gutter * 4 );
 		margin-right: 0;
 	}
 	.figure {
