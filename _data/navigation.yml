@@ -2,8 +2,8 @@
 header:
 - title: Docs
   url: 'http://docs.anchorcms.com'
-- title: Resources
-  url: 'http://docs.anchorcms.com/resources'
+- title: Themes
+  url: 'http://anchorthemes.com'
 - title: Forum
   url: 'http://forums.anchorcms.com'
 - title: Blog
@@ -20,6 +20,16 @@ footer:
 
 # Sidebar nav
 sidebar:
+
+# Resources
+- title: Resources
+  subnav:
+  - title: Logos & Assets
+    url: /resources/
+  - title: Design Guidelines
+    url: /resources#design-guidelines
+  - title: Recommended Hosts
+    url: /resources#recommended-hosts
 
 # Getting started
 - title: Getting started
