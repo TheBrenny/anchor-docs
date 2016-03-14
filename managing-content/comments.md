@@ -8,7 +8,7 @@ title: Comments
 Anchor uses its own built-in commenting system. To moderate blog comments (if
 they’re turned on), use this interface.
 
-<span class="screenshot">![Anchor’s comments screen](/screenshots/comments.png)</span>
+<span class="screenshot">![Anchor’s comments screen](/images/comments.png)</span>
 
 To edit a comment, simply click the box.
 
