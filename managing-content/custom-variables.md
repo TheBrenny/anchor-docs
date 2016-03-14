@@ -1,5 +1,6 @@
 ---
 layout: page
+title: Custom Variables
 ---
 
 # Custom Variables

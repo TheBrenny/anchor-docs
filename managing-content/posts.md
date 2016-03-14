@@ -1,5 +1,6 @@
 ---
 layout: page
+title: Posts
 ---
 
 # Posts
@@ -9,7 +10,7 @@ add, remove, and edit any blog posts (or articles) in your Anchor blog.
 
 ## The posts screen
 
-<span class="screenshot">![Anchor’s main posts screen](/screenshots/posts-list.png)</span>
+<span class="screenshot">![Anchor’s main posts screen](/images/posts-list.png)</span>
 This screen will show you all of your posts, coloured by status.
 
 
@@ -19,7 +20,7 @@ This screen will show you all of your posts, coloured by status.
 To create a post, click the green “Create a new post” button. You’ll be greeted
 with a minimal writing interface (see below).
 
-<span class="screenshot">![Anchor’s new post screen](/screenshots/posts-new.png)</span>
+<span class="screenshot">![Anchor’s new post screen](/images/posts-new.png)</span>
 
 The extra fields (excluding custom fields) are explained below.
 

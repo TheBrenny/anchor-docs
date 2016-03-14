@@ -1,5 +1,6 @@
 ---
 layout: page
+title: Pages
 ---
 
 # Pages
