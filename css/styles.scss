@@ -733,7 +733,7 @@ a.entypo-google {
 		.active {
 			font-weight: 500;
 			color: $link;
-			background: #f6fbff;
+			background: fade-out(lighten($link, 45%), 0.75);
 		}
 	}
 	ul {
