@@ -1,5 +1,6 @@
 ---
 layout: page
+title: The plugin.php file
 ---
 
 # The plugin.php file
