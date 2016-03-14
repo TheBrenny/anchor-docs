@@ -1,5 +1,7 @@
 # Header nav
 header:
+- title: Anchor
+  url: 'http://anchorcms.com'
 - title: Docs
   url: 'http://docs.anchorcms.com'
 - title: Themes
