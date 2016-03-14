@@ -365,12 +365,12 @@ a.button, .screens a, .screens:hover a, .share-button label, .share-button a {
 		background: darken($copy, 20%);
 	}
 	&.edit {
-		background: darken($lightbg, 30%);
+		background: lighten($link, 10%);
 		position: absolute;
 		top: 0;
 		right: 0;
 		&:hover {
-			background: $copy;
+			background: $link;
 		}
 		svg {
 			vertical-align: top;
@@ -732,6 +732,8 @@ a.entypo-google {
 		}
 		.active {
 			font-weight: 500;
+			color: $link;
+			background: #f6fbff;
 		}
 	}
 	ul {
