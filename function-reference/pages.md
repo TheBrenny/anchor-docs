@@ -13,6 +13,10 @@ Checks if the current page is active. Returns true if there are, false if not.
 
 Returns the content of the current page, as a HTML string.
 
+### `page_description`
+
+Returns article description or site descripion depending on the page visited.
+
 ### `page_id`
 
 Returns the current page's ID.
