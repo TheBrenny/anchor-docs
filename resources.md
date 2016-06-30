@@ -31,11 +31,15 @@ Here are some of the recommend hosting providers.
 **VPS**
 
 *   [Linode](http://linode.com/)
+*   [Digital Ocean](https://www.digitalocean.com/)
 *   [Media Temple](http://mediatemple.net/webhosting/ve/)
 
 **PaaS**
 
 *   [App Fog](http://appfog.com/)
 *   [Engine Yard](http://engineyard.com/)
+*   [fortrabbit](https://www.fortrabbit.com)
+*   [Heroku](https://heroku.com)
 *   [OpenShift](http://openshift.com/)
     *   [Deploying Anchor CMS on OpenShift](http://www.mseri.me/deploying-anchor-cms-on-openshift/)
+*   [Pagoda Box](http://pagodabox.io/)
