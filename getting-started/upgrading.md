@@ -70,4 +70,4 @@ lets tar gzip it to a safe location.
 		'password' => 'my-awesome-password',
 		'database' => 'anchorcms'
 
-6.	Run your site and your done.
+6.	Run your site and you're done.
