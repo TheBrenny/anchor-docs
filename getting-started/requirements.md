@@ -16,7 +16,9 @@ In order to remain lightweight, Anchor only supports recent versions of the lang
 
 If you’re not sure what version of PHP you have, create a new file, and paste the following in at the top of the page:
 
-	<?php echo PHP_VERSION; // version.php
+```
+<?php echo PHP_VERSION; // version.php
+```
 
 This should print a number to your screen, which should be bigger than `5.3.6`.
 

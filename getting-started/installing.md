@@ -7,7 +7,7 @@ title: Installing
 
 Before installing, make sure your platform has the [required](/docs/getting-started/requirements) components to run Anchor.
 
-1.	Download the latest version of Anchor [here](/download).
+1.	Download the latest version of Anchor [here](//anchorcms.com/download).
 2.	Navigate to your downloading file and extract the contents.
 3.	Depending on your host there may be a few methods of getting files uploaded.
 	The most common is FTP/SFTP. In your favourite client, connect to your webhost
@@ -22,12 +22,8 @@ Before installing, make sure your platform has the [required](/docs/getting-star
 	normally you will have access to some sort of GUI client such as PHPMyAdmin
 	or Sequel Pro. You’ll need to ask your webhost if you’re not sure with this.
 6.	Navigate your browser to your Anchor installation URL, if you have placed Anchor
-	in a sub directory make sure you append the folder name to the URL:
-
-<pre><span class="comment">http://mydomainname.com</span>/anchor</pre>
-
+	in a sub directory make sure you append the folder name to the URL: `http://mycooldomain.com/anchor`
 7.  Follow the instructions in the installer.
-
 8.	Once you have completed the install, make sure to delete `install` folder for
     security purposes.
 
