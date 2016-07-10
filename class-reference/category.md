@@ -15,12 +15,13 @@ Array of categories indexed by the category ID.
 
 ### Example
 
-	<?php foreach(Category::dropdown() as $id => $category): ?>
+``` php
+<?php foreach(Category::dropdown() as $id => $category): ?>
 
-		<option value="<?php echo $id; ?>"><?php echo $category; ?></option>
+    <option value="<?php echo $id; ?>"><?php echo $category; ?></option>
 
-	<?php endforeach; ?>
-
+<?php endforeach; ?>
+```
 
 `public static function slug(string $slug)`
 
@@ -30,14 +31,15 @@ New instance of the `Category` object or null if not found
 
 ### Example
 
-	$category = Category::slug('my-category-slug');
+``` php
+$category = Category::slug('my-category-slug');
 
-	echo $category->title;
+echo $category->title;
 
-	$category->title = 'New Title';
+$category->title = 'New Title';
 
-	$category->save();
-
+$category->save();
+```
 
 `public static function paginate(int $page = 1, int $perpage = 10)`
 
@@ -47,10 +49,12 @@ New instance of the `Paginator` class
 
 ### Example
 
-	$paging = Category::paginate(1, 10);
+``` php
+$paging = Category::paginate(1, 10);
 
-	$paging->links(); // returns <a href="BASE/category/1">First</a> ...
+$paging->links(); // returns <a href="BASE/category/1">First</a> ...
 
-	foreach($paging->results as $category) {
-		echo $category->title;
-	}
+foreach($paging->results as $category) {
+    echo $category->title;
+}
+```

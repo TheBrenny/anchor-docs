@@ -25,9 +25,11 @@ Returns the current menu item\'s ID
 
 Counts through every visible menu item, one, by one. Returns true when there is more posts to be listed or false when we are at the end. Should be used like this:
 
-	<?php while(menu_items()): ?>
-		<!-- Loop through the menu items. -->
-	<?php endwhile; ?>
+``` php
+<?php while(menu_items()): ?>
+    <!-- Loop through the menu items. -->
+<?php endwhile; ?>
+```
 
 ### `menu_name`
 

@@ -9,9 +9,11 @@ title: Categories
 
 Loops through every category, one, by one. Returns true when there is more categories to be listed or false when we are at the end. Should be used like this:
 
-	<?php while(categories()): ?>
-		<!-- Loop through the categories. -->
-	<?php endwhile; ?>
+``` php
+<?php while(categories()): ?>
+    <!-- Loop through the categories. -->
+<?php endwhile; ?>
+```
 
 ### `category_count`
 

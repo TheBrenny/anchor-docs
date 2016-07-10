@@ -15,7 +15,7 @@ Returns the content of the current page, as a HTML string.
 
 ### `page_description`
 
-Returns article description or site descripion depending on the page visited.
+Returns article description or site description depending on the page visited.
 
 ### `page_id`
 

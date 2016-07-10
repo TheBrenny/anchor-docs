@@ -13,20 +13,24 @@ Returns true if there is more posts than the per page limit set in your config a
 
 Checks if there are any published posts. Returns true if there are, false if not. Should be used in conjunction with posts() like this:
 
-	<?php if(has_posts()): ?>
-		<!-- We have posts, it's safe to loop. -->
-		<?php while(posts()): ?>
-			 <?php echo article_title(); ?>
-		<?php endwhile; ?>
-	<?php endif; ?>
+``` php
+<?php if(has_posts()): ?>
+    <!-- We have posts, it's safe to loop. -->
+    <?php while(posts()): ?>
+        <?php echo article_title(); ?>
+    <?php endwhile; ?>
+<?php endif; ?>
+```
 
 ### `posts`
 
 Counts through every visible post, one, by one. Returns true when there is more posts to be listed or false when we are at the end. Should be used like this:
 
-	<?php while(posts()): ?>
-		<!-- Loop through the posts. -->
-	<?php endwhile; ?>
+``` php
+<?php while(posts()): ?>
+    <!-- Loop through the posts. -->
+<?php endwhile; ?>
+```
 
 ### `posts_next`
 
