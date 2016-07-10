@@ -20,7 +20,7 @@ as. Don't worry, we'll get more into that in a little bit...
 To create a page, click the green “Create a new page” button. You’ll be greeted
 with a minimal writing interface (see below).
 
-![Anchor’s new page screen](/images/posts-new.png)
+![Anchor’s new page screen](/images/pages-new.png)
 
 The extra fields (excluding custom fields) are explained below.
 
