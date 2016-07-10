@@ -54,7 +54,7 @@ The category the content should be filed under.
 Choose whether or not to display the comment form (and comments) with the post.
 This includes all prior comments
 
-####Custom CSS (optional)
+### Custom CSS (optional)
 
 Each article can have its own style, you can populate this with CSS code by
 typing it in the input textarea, or if you already have your styles in a CSS
