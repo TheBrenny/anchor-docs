@@ -49,7 +49,7 @@ The unique identifier and section of your blog’s URL that tells you about the 
 Useful for SEO and usability (or "guessability").
 
 <code class="highlighter-rouge">
-http://mydomain.com/blog/<strong>my-page-slug-example</strong>
+http://mydomain.com/<strong>my-page-slug-example</strong>
 </code>
 
 
