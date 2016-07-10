@@ -21,6 +21,7 @@ $twitter: #00aced;
 $facebook: #3B5999;
 $google: #e34429;
 $white: #ffffff;
+$shadow: #222222;
 
 // Prefix Mixins
 
@@ -324,6 +325,10 @@ code {
 
 pre > code {
     overflow-x: scroll;
+}
+
+.dropshadow {
+	box-shadow: 0px 0px 8px $shadow;
 }
 
 ::selection {
