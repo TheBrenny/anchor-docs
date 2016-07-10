@@ -229,6 +229,15 @@ h3 {
 	font-weight: 400;
 	line-height: 1.3em;
 	margin: 0 0 .7em 0;
+	&::before {
+		display: block;
+		content: "";
+		height: 1px;
+		width: 95%;
+		margin-left: 2.5%;
+		margin-right: 2.5%;
+		background-color: $lighthover;
+	}
 	a {
 		font-weight: 500;
 	}
@@ -322,8 +331,14 @@ code {
 		border-radius: $corners;
 }
 
-pre > code {
-    overflow-x: scroll;
+pre {
+	margin-top: -1em;
+	> code {
+    overflow: auto;
+		width: 90%;
+		padding: 1.1em 0.9em;
+		box-shadow: inset 0px 1px 1px $lighthover;
+	}
 }
 
 ::selection {
