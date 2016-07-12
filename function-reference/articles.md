@@ -33,7 +33,7 @@ Returns the email address of the current post author.
 
 If custom CSS was added, returns the custom CSS. Should be used like this:
 
-```
+``` php
 <?php if(article_css()): ?>
     <style><?php echo article_css(); ?></style>
 <?php endif; ?>
@@ -43,7 +43,7 @@ If custom CSS was added, returns the custom CSS. Should be used like this:
 
 Retrieves a custom field with the key $key, with an optional fallback parameter ($fallback). Used like so:
 
-```
+``` php
 <small class="attribution">
     Thanks to <?php echo article_custom_field('attribution', 'Mike'); ?>
 </small>
@@ -83,7 +83,7 @@ Returns the database-assigned ID of the current article, as a number. Used for u
 
 Similar to article_css(), but with Javascript. Should be used like this:
 
-```
+``` php
 <?php if(article_js()): ?>
     <script><?php echo article_js(); ?></script>
 <?php endif; ?>
@@ -123,7 +123,7 @@ Returns the total number of published comments for the current article.
 
 Returns a fully-built URL string, which serves as a permalink. Should be used like so:
 
-```
+``` php
 <a href="<?php echo article_url(); ?>">
     <?php echo article_title(); ?>
 </a>
@@ -137,7 +137,7 @@ Alias for `customised` to matched prefixed fuction theme.
 
 Returns true if an article has custom CSS or Javascript attached to it, false if not.
 
-```
+``` php
 <?php if(customised()) : ?>
 <p>This page has custom CSS or JS</p>
 <?php else : ?>
@@ -155,7 +155,7 @@ Returns the number of the article. Your 3rd published article will return 3.
 
 Returns the url to an adjacent article. Takes `$side` (next|prev|previous) and flags to include drafted or archived articles.
 
-```
+``` php
 <a href="<?php echo article_adjacent_url('prev'); ?>">Previous</a>
 <a href="<?php echo article_adjacent_url('next'); ?>">Next</a>
 ```

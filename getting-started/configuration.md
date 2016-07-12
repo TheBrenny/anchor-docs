@@ -25,7 +25,7 @@ URL.
   (the path to your Anchor installation — if you’re installing Anchor as a
   subfolder, it’s the name of that subfolder).
 
-```
+``` php
 return array(
   ...
   'url' => '/', // or '/anchor' for subfolder called `anchor`
@@ -33,7 +33,7 @@ return array(
 
 2.	In the same file, `anchor/config/app.php`, set the `index` to an empty string.
 
-```
+``` php
 return array(
   ...
 	'index' => ''
@@ -46,7 +46,7 @@ return array(
 
 Create a `.htaccess` file in your web root and paste the following contents:
 
-```
+``` txt
 <IfModule mod_rewrite.c>
 	RewriteEngine On
 	RewriteCond %{REQUEST_FILENAME} !-f
@@ -58,7 +58,7 @@ Create a `.htaccess` file in your web root and paste the following contents:
 
 Make sure in your vhost file you have the `try_files` feature.
 
-```
+``` txt
 # http://wiki.nginx.org/HttpCoreModule
 location / {
 	try_files $uri $uri/ /index.php;
@@ -76,7 +76,7 @@ Once you’ve found your timezone string, edit the `timezone` field in
 `anchor/config/app.php` (which should look like below, replacing Europe/London
 with your timezone string).
 
-```
+``` php
 return array(
 	...
 	'timezone' => 'Europe/London',
@@ -88,7 +88,7 @@ Anchor supports internationalisation, which means you can use Anchor in non-
 English languages. To change the language, edit the `language` variable in
 `anchor/config/app.php'`.
 
-```
+``` php
 return array(
 	...
 	'language' => 'en_GB',

@@ -15,8 +15,10 @@ String with the table prefix.
 
 ### Example
 
-	Base::table(); // returns 'anchor_'
+```
+Base::table(); // returns 'anchor_'
 
-	Post::table(); // returns 'anchor_posts'
+Post::table(); // returns 'anchor_posts'
 
-	Base::table('posts'); // returns `anchor_posts`
+Base::table('posts'); // returns `anchor_posts`
+```

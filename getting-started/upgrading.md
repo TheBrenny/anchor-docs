@@ -52,7 +52,7 @@ cp install/storage/database.distro.php anchor/config/database.php
 5.	Edit the new files and copy the details from your old config.php file.
   For example, my old config database details would simply copy from this:
 
-```
+``` php
 'host' => 'anchor-cms-demo.mysql.eu1.frbit.com',
 'port' => '3306',
 'username' => 'anchor-cms-demo',
@@ -63,7 +63,7 @@ cp install/storage/database.distro.php anchor/config/database.php
 
   To this:
 
-```
+``` php
 'driver' => 'mysql',
 'hostname' => 'anchor-cms-demo.mysql.eu1.frbit.com',
 'port' => 3306,

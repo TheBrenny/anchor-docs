@@ -9,11 +9,13 @@ title: Comments
 
 A loop, similar to posts(), which returns true if there are any subsequent comments, false if not. Should be used as such:
 
-	<?php if(comments_open() and has_comments()): ?>
-		<?php while(comments()): ?>
-			<!-- We've got comments, let's go. -->
-		<?php endwhile; ?>
-	<?php endif; ?>
+``` php
+<?php if(comments_open() and has_comments()): ?>
+    <?php while(comments()): ?>
+        <!-- We've got comments, let's go. -->
+    <?php endwhile; ?>
+<?php endif; ?>
+```
 
 ### `comments_open`
 

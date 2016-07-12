@@ -17,4 +17,6 @@ Returns the name of the Anchor site, as set in the metadata area of the admin pa
 
 Returns the value of a site variable.
 
-	site_meta('twitter', 'idiot');
+``` php
+<?php site_meta('twitter', 'idiot'); ?>
+```
