@@ -5,7 +5,7 @@ title: Upgrading
 
 # Upgrading
 
-**Backup your database and files!**
+### Backup your databases and files!
 
 Here is an example for backup up on most servers via ssh using mysql dump:
 
