@@ -7,9 +7,15 @@ title: Resources
 
 ### Logos
 
-Anchor logo in vector and transparent formats.
+Anchor logo in various file formats.
 
-[Download now!](http://cl.ly/EZDq)
+![Anchor logo](/images/anchor.png)
+
+| Format | Link |
+|:------:|:----:|
+| PNG    | [PNG Format](/images/anchor.png) |
+| PSD    | [PSD Format](/images/anchor.psd) |
+| SVG    | [SVG Format](/images/anchor.svg) |
 
 ### Design Guidelines
 
